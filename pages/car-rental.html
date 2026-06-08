@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Car Rental Rameswaram – Sedan, Innova Crysta, Tempo Traveller. Book AC taxi from Rameswaram to Kanyakumari, Madurai, Kerala. 24/7. Arthika Tours and Travels.">
+<title>Car Rental – Arthika Tours and Travels</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<style>
+.page-hero { background: linear-gradient(to right, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.3) 100%), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1400&q=80') center/cover no-repeat; padding: 70px 0; }
+.page-hero h1 { font-family: 'Merriweather', serif; font-size: clamp(26px,4vw,40px); color: #fff; margin-bottom: 10px; }
+.page-hero p { color: rgba(255,255,255,0.8); font-size: 16px; }
+.breadcrumb { background:#f7f7f7; padding:12px 0; border-bottom:1px solid #e0e0e0; font-size:13px; color:#777; }
+.breadcrumb a { color:#e8a020; }
+.vehicles-section { padding:64px 0; }
+.vehicle-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
+.vehicle-card { background:#fff; border:1px solid #e0e0e0; border-radius:8px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.07); transition:transform 0.22s,box-shadow 0.22s; }
+.vehicle-card:hover { transform:translateY(-4px); box-shadow:0 8px 28px rgba(0,0,0,0.12); }
+.vehicle-card img { width:100%; height:210px; object-fit:cover; }
+.vehicle-badge { background:#e8a020; color:#fff; font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:0.4px; padding:4px 12px; display:inline-block; margin:14px 16px 0; border-radius:3px; }
+.vehicle-body { padding:14px 16px 20px; }
+.vehicle-body h3 { font-family:'Merriweather',serif; font-size:17px; color:#222; margin-bottom:8px; }
+.vehicle-specs { list-style:none; display:grid; grid-template-columns:1fr 1fr; gap:6px 12px; margin-bottom:14px; }
+.vehicle-specs li { font-size:13px; color:#555; display:flex; align-items:center; gap:6px; }
+.vehicle-specs li::before { content:'✓'; color:#e8a020; font-weight:700; flex-shrink:0; }
+.vehicle-price { background:#fdf3e0; border-radius:5px; padding:10px 14px; display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
+.vehicle-price .price-label { font-size:12px; color:#777; }
+.vehicle-price .price-val { font-family:'Merriweather',serif; font-size:18px; color:#e8a020; font-weight:700; }
+.btn-book-vehicle { display:block; text-align:center; background:#e8a020; color:#fff; font-weight:700; font-size:14px; padding:11px; border-radius:5px; text-transform:uppercase; letter-spacing:0.4px; transition:background 0.2s; }
+.btn-book-vehicle:hover { background:#c8820a; color:#fff; }
+.info-strip { background:#333; padding:32px 0; }
+.info-strip-inner { display:flex; justify-content:space-around; flex-wrap:wrap; gap:20px; }
+.info-chip { text-align:center; color:#fff; }
+.info-chip-icon { font-size:30px; margin-bottom:6px; }
+.info-chip strong { display:block; font-size:15px; margin-bottom:3px; }
+.info-chip span { font-size:13px; color:rgba(255,255,255,0.6); }
+.rental-info { padding:64px 0; background:#f7f7f7; }
+.rental-grid { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; }
+.rental-grid h2 { font-family:'Merriweather',serif; font-size:24px; color:#222; margin-bottom:16px; padding-bottom:12px; border-bottom:3px solid #e8a020; display:inline-block; }
+.rental-list { list-style:none; display:flex; flex-direction:column; gap:12px; }
+.rental-list li { display:flex; align-items:flex-start; gap:10px; background:#fff; border-radius:6px; padding:12px 15px; font-size:14px; color:#444; box-shadow:0 1px 6px rgba(0,0,0,0.05); }
+.rental-list li span.icon { font-size:20px; flex-shrink:0; }
+@media(max-width:1024px){.vehicle-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:768px){.vehicle-grid{grid-template-columns:1fr;}.rental-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<div class="announce-bar"><div class="container announce-inner"><span>🎉 Special Offer: <a href="car-rental.html">Innova Crysta @ 20% Off</a> – Book Now!</span><div class="announce-links"><a href="tour-packages.html">Kerala Packages</a><span>|</span><a href="rameswaram-packages.html">Rameswaram 1-Day</a></div></div></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../index.html" class="logo-wrap">
+      <div class="logo-box"><span class="logo-letter">A</span></div>
+      <div class="logo-text-block"><div class="logo-name">Arthika Tours and Travels</div><div class="logo-tagline">Rameswaram's No.1 Taxi Booking</div></div>
+    </a>
+    <div class="header-contact">
+      <div class="contact-chip"><span class="chip-icon">📞</span><div><div class="chip-label">Phone Us</div><a href="tel:9994023634" class="chip-val">+91 9994023634</a></div></div>
+      <div class="contact-chip"><span class="chip-icon">✉️</span><div><div class="chip-label">Email Us</div><a href="mailto:arthikatours@gmail.com" class="chip-val">arthikatours@gmail.com</a></div></div>
+      <a href="../index.html#booking" class="btn-book-now">Book My Trip</a>
+    </div>
+    <button class="hamburger" id="ham"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="main-nav" id="mainNav">
+    <div class="container nav-inner">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="car-rental.html" class="active">Car Rental</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="tour-packages.html">Tour Packages</a>
+      <a href="rameswaram-packages.html">Rameshwaram Packages</a>
+      <a href="hotels.html">Hotels</a>
+    </div>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <h1>Car Rental – Rameswaram</h1>
+    <p>AC Sedan · Innova Crysta · Tempo Traveller · Mini Bus – All at Best Prices</p>
+  </div>
+</div>
+
+<div class="breadcrumb"><div class="container"><a href="../index.html">Home</a> › <span>Car Rental</span></div></div>
+
+<div class="info-strip">
+  <div class="container info-strip-inner">
+    <div class="info-chip"><div class="info-chip-icon">🚗</div><strong>AC Vehicles</strong><span>Well-maintained fleet</span></div>
+    <div class="info-chip"><div class="info-chip-icon">👨‍✈️</div><strong>Expert Drivers</strong><span>Licensed & experienced</span></div>
+    <div class="info-chip"><div class="info-chip-icon">💰</div><strong>Best Rates</strong><span>No hidden charges</span></div>
+    <div class="info-chip"><div class="info-chip-icon">🕐</div><strong>24/7 Booking</strong><span>Available all days</span></div>
+    <div class="info-chip"><div class="info-chip-icon">📍</div><strong>Pickup from Rameswaram</strong><span>Hotel/Station pickup</span></div>
+  </div>
+</div>
+
+<section class="vehicles-section">
+  <div class="container">
+    <h2 class="section-title">Our Vehicle Fleet</h2>
+    <div class="vehicle-grid">
+
+      <div class="vehicle-card">
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Sedan AC Car">
+        <span class="vehicle-badge">Most Popular</span>
+        <div class="vehicle-body">
+          <h3>Sedan – AC (Swift Dzire / Etios)</h3>
+          <ul class="vehicle-specs">
+            <li>4 Seater Capacity</li>
+            <li>Full AC</li>
+            <li>Large Boot Space</li>
+            <li>Ideal for Couples/Small Family</li>
+            <li>Music System</li>
+            <li>24/7 Available</li>
+          </ul>
+          <div class="vehicle-price">
+            <span class="price-label">Starting From</span>
+            <span class="price-val">₹12/km</span>
+          </div>
+          <a href="../index.html#booking" class="btn-book-vehicle">Book Now</a>
+        </div>
+      </div>
+
+      <div class="vehicle-card">
+        <img src="https://images.unsplash.com/photo-1519750783826-e2420f4d687f?w=600&q=80" alt="Innova Crysta">
+        <span class="vehicle-badge" style="background:#c8820a">20% Off Today</span>
+        <div class="vehicle-body">
+          <h3>Innova Crysta – AC (7 Seater)</h3>
+          <ul class="vehicle-specs">
+            <li>7 Seater Capacity</li>
+            <li>Full AC</li>
+            <li>Ample Luggage Space</li>
+            <li>Ideal for Families</li>
+            <li>Comfortable Seats</li>
+            <li>GPS Enabled</li>
+          </ul>
+          <div class="vehicle-price">
+            <span class="price-label">Starting From</span>
+            <span class="price-val">₹16/km</span>
+          </div>
+          <a href="../index.html#booking" class="btn-book-vehicle">Book Now</a>
+        </div>
+      </div>
+
+      <div class="vehicle-card">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Tempo Traveller">
+        <span class="vehicle-badge">Groups & Pilgrimages</span>
+        <div class="vehicle-body">
+          <h3>Tempo Traveller (12 / 17 Seater)</h3>
+          <ul class="vehicle-specs">
+            <li>12 or 17 Seater</li>
+            <li>Full AC</li>
+            <li>Push-Back Seats</li>
+            <li>Ideal for Groups</li>
+            <li>Large Luggage Hold</li>
+            <li>Music System</li>
+          </ul>
+          <div class="vehicle-price">
+            <span class="price-label">Starting From</span>
+            <span class="price-val">₹22/km</span>
+          </div>
+          <a href="../index.html#booking" class="btn-book-vehicle">Book Now</a>
+        </div>
+      </div>
+
+      <div class="vehicle-card">
+        <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80" alt="Mini Bus">
+        <span class="vehicle-badge">Corporate & Events</span>
+        <div class="vehicle-body">
+          <h3>Mini Bus (20–30 Seater)</h3>
+          <ul class="vehicle-specs">
+            <li>20–30 Seater</li>
+            <li>AC Available</li>
+            <li>Corporate Transfers</li>
+            <li>School/Temple Groups</li>
+            <li>Large Luggage Space</li>
+            <li>Experienced Driver</li>
+          </ul>
+          <div class="vehicle-price">
+            <span class="price-label">Starting From</span>
+            <span class="price-val">₹35/km</span>
+          </div>
+          <a href="../index.html#booking" class="btn-book-vehicle">Book Now</a>
+        </div>
+      </div>
+
+      <div class="vehicle-card">
+        <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&q=80" alt="SUV Car Rental">
+        <span class="vehicle-badge">Premium</span>
+        <div class="vehicle-body">
+          <h3>SUV / Ertiga – AC (6–7 Seater)</h3>
+          <ul class="vehicle-specs">
+            <li>6–7 Seater</li>
+            <li>Full AC</li>
+            <li>Premium Comfort</li>
+            <li>Ideal for Hill Trips</li>
+            <li>Boot Space</li>
+            <li>24/7 Available</li>
+          </ul>
+          <div class="vehicle-price">
+            <span class="price-label">Starting From</span>
+            <span class="price-val">₹14/km</span>
+          </div>
+          <a href="../index.html#booking" class="btn-book-vehicle">Book Now</a>
+        </div>
+      </div>
+
+      <div class="vehicle-card">
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600&q=80" alt="One Way Taxi">
+        <span class="vehicle-badge">Best Value</span>
+        <div class="vehicle-body">
+          <h3>One Way Taxi – All Vehicles</h3>
+          <ul class="vehicle-specs">
+            <li>Rameswaram to Madurai</li>
+            <li>Rameswaram to Chennai</li>
+            <li>Rameswaram to Kanyakumari</li>
+            <li>All South India Routes</li>
+            <li>No Return Fare</li>
+            <li>Drop & Go Service</li>
+          </ul>
+          <div class="vehicle-price">
+            <span class="price-label">Starting From</span>
+            <span class="price-val">₹10/km</span>
+          </div>
+          <a href="../index.html#booking" class="btn-book-vehicle">Book Now</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="rental-info">
+  <div class="container">
+    <div class="rental-grid">
+      <div>
+        <h2>Rental Inclusions</h2>
+        <ul class="rental-list">
+          <li><span class="icon">✅</span> AC vehicle with experienced, licensed driver</li>
+          <li><span class="icon">✅</span> Fuel charges included (within package km)</li>
+          <li><span class="icon">✅</span> Driver bata and night charges included</li>
+          <li><span class="icon">✅</span> Toll & parking charges on actuals</li>
+          <li><span class="icon">✅</span> Hotel/airport/station pickup & drop</li>
+          <li><span class="icon">✅</span> 24/7 customer support during trip</li>
+          <li><span class="icon">✅</span> GST included – no surprise bills</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Popular Routes</h2>
+        <ul class="rental-list">
+          <li><span class="icon">📍</span> Rameswaram → Madurai (170 km)</li>
+          <li><span class="icon">📍</span> Rameswaram → Kanyakumari (290 km)</li>
+          <li><span class="icon">📍</span> Rameswaram → Chennai (570 km)</li>
+          <li><span class="icon">📍</span> Rameswaram → Ooty (430 km)</li>
+          <li><span class="icon">📍</span> Rameswaram → Kodaikanal (285 km)</li>
+          <li><span class="icon">📍</span> Rameswaram → Munnar (360 km)</li>
+          <li><span class="icon">📍</span> Rameswaram → Tirupati (680 km)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer"><div class="container footer-grid"><div class="footer-about"><div class="logo-wrap" style="margin-bottom:14px"><div class="logo-box"><span class="logo-letter">A</span></div><div class="logo-text-block"><div class="logo-name" style="color:#fff">Arthika Tours and Travels</div><div class="logo-tagline">Rameswaram's No.1 Taxi Booking</div></div></div><p>Reliable taxi and tour services from Rameswaram to all South India destinations. 24/7 service.</p></div><div class="footer-col"><h5>Popular Destinations</h5><ul><li><a href="destinations.html#rameswaram">Rameswaram</a></li><li><a href="destinations.html#kanyakumari">Kanyakumari</a></li><li><a href="destinations.html#madurai">Madurai</a></li><li><a href="destinations.html#kerala">Kerala</a></li><li><a href="destinations.html#ooty">Ooty</a></li></ul></div><div class="footer-col"><h5>Quick Links</h5><ul><li><a href="car-rental.html">Car Rental</a></li><li><a href="tour-packages.html">Tour Packages</a></li><li><a href="rameswaram-packages.html">Rameswaram Packages</a></li><li><a href="../index.html#booking">Book a Trip</a></li></ul></div><div class="footer-col"><h5>Contact</h5><ul><li><a href="tel:9994023634">📞 9994023634</a></li><li><a href="https://wa.me/919994023634" target="_blank">💬 WhatsApp</a></li><li><a href="#">📍 Rameswaram, TN</a></li></ul></div></div><div class="footer-bottom"><div class="container"><p>Copyright © 2025 Arthika Tours and Travels. All rights reserved.</p></div></div></footer>
+<a href="https://wa.me/919994023634" class="wa-btn" target="_blank"><svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+<script src="../script.js"></script>
+</body>
+</html>
