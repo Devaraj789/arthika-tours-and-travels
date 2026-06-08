@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Arthika Tours and Travels – Rameswaram's No.1 Taxi Booking. Car Rental, Innova, Tempo Traveller. Rameswaram, Kanyakumari, Madurai, Kerala Tour Packages.">
+<meta name="keywords" content="Arthika Tours Travels, Rameswaram taxi, cab booking Rameswaram, car rental, tour packages, Kanyakumari tour, Madurai tour, Kerala packages">
 <title>Arthika Tours and Travels – Rameswaram's No.1 Taxi Booking</title>
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +12,7 @@
 </head>
 <body>
 
-<!-- TOP BAR -->
+<!-- ══ TOP ANNOUNCEMENT BAR ══ -->
 <div class="announce-bar">
   <div class="container announce-inner">
     <span>🎉 Special Offer: <a href="pages/car-rental.html">Innova Crysta @ 20% Off</a> – Book Now!</span>
@@ -25,16 +26,21 @@
   </div>
 </div>
 
-<!-- HEADER -->
+<!-- ══ HEADER ══ -->
 <header class="site-header">
   <div class="container header-inner">
+    <!-- Logo -->
     <a href="index.html" class="logo-wrap">
-      <div class="logo-box"><span class="logo-letter">A</span></div>
+      <div class="logo-box">
+        <span class="logo-letter">A</span>
+      </div>
       <div class="logo-text-block">
         <div class="logo-name">Arthika Tours and Travels</div>
         <div class="logo-tagline">Rameswaram's No.1 Taxi Booking</div>
       </div>
     </a>
+
+    <!-- Contact strip -->
     <div class="header-contact">
       <div class="contact-chip">
         <span class="chip-icon">📞</span>
@@ -52,10 +58,14 @@
       </div>
       <a href="#booking" class="btn-book-now">Book My Trip</a>
     </div>
+
+    <!-- Hamburger -->
     <button class="hamburger" id="ham" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
   </div>
+
+  <!-- ══ NAV ══ -->
   <nav class="main-nav" id="mainNav">
     <div class="container nav-inner">
       <a href="index.html" class="active">Home</a>
@@ -63,17 +73,15 @@
       <a href="pages/car-rental.html">Car Rental</a>
       <a href="pages/destinations.html">Destinations</a>
       <a href="pages/tour-packages.html">Tour Packages</a>
-      <a href="pages/rameswaram-packages.html">Rameswaram Packages</a>
+      <a href="pages/rameswaram-packages.html">Rameshwaram Packages</a>
       <a href="pages/hotels.html">Hotels</a>
     </div>
   </nav>
 </header>
 
-<!-- HERO SLIDER - Actual South India / travel photos -->
+<!-- ══ HERO SLIDER ══ -->
 <section class="hero-slider">
-
-  <!-- Slide 1: Pamban Bridge / Rameswaram -->
-  <div class="slide active" style="background-image:url('https://images.pexels.com/photos/13694028/pexels-photo-13694028.jpeg?auto=compress&cs=tinysrgb&w=1400')">
+  <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1400&q=80')">
     <div class="slide-overlay"></div>
     <div class="slide-content container">
       <h1>Welcome to <span>Arthika Tours</span> and Travels</h1>
@@ -84,9 +92,7 @@
       </div>
     </div>
   </div>
-
-  <!-- Slide 2: Kanyakumari sunrise -->
-  <div class="slide" style="background-image:url('https://www.pexels.com/photo/sunset-view-of-vivekananda-rock-memorial-and-thiruvalluvar-statue-32906785.jpeg?auto=compress&cs=tinysrgb&w=1400')">
+  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80')">
     <div class="slide-overlay"></div>
     <div class="slide-content container">
       <h1>Explore <span>South India</span> with Us</h1>
@@ -97,9 +103,7 @@
       </div>
     </div>
   </div>
-
-  <!-- Slide 3: Kerala backwaters / nature -->
-  <div class="slide" style="background-image:url('https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&w=1400')">
+  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1519750783826-e2420f4d687f?w=1400&q=80')">
     <div class="slide-overlay"></div>
     <div class="slide-content container">
       <h1>Comfortable <span>Innova & Tempo</span> Traveller</h1>
@@ -110,13 +114,13 @@
       </div>
     </div>
   </div>
-
+  <!-- Slider controls -->
   <button class="slide-prev" onclick="changeSlide(-1)">&#10094;</button>
   <button class="slide-next" onclick="changeSlide(1)">&#10095;</button>
   <div class="slide-dots" id="dots"></div>
 </section>
 
-<!-- STATS BAR -->
+<!-- ══ STATS BAR ══ -->
 <div class="stats-bar">
   <div class="container stats-inner">
     <div class="stat-item"><span class="stat-num">500+</span><span class="stat-lbl">Happy Customers</span></div>
@@ -127,15 +131,14 @@
   </div>
 </div>
 
-<!-- FEATURED CARDS TOP 3 -->
+<!-- ══ FEATURED CARDS (like royalcabs homepage) ══ -->
 <section class="section-featured">
   <div class="container">
     <div class="featured-grid">
 
-      <!-- Car Rental -->
       <article class="feat-card">
         <a href="pages/car-rental.html">
-          <img src="https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Car Rental Rameswaram" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&q=80" alt="Car Rental Rameswaram">
         </a>
         <div class="feat-body">
           <h3><a href="pages/car-rental.html">Car Rental</a></h3>
@@ -144,22 +147,20 @@
         </div>
       </article>
 
-      <!-- South India Tour Package -->
       <article class="feat-card">
         <a href="pages/tour-packages.html">
-          <img src="https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=600" alt="South Indian Tour Package" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80" alt="South Indian Tour Package">
         </a>
         <div class="feat-body">
           <h3><a href="pages/tour-packages.html">South Indian Special Tour Package</a></h3>
-          <p>Thiruvananthapuram – Kanyakumari – Rameswaram – Madurai – Thekkady – Munnar – Kodaikanal. We make your visit memorable by offering the most pocket-friendly South India tour packages…</p>
+          <p>Thiruvananthapuram – Kanyakumari – Rameswaram – Madurai – Thekkady – Munnar – Kodaikanal. We make your visit memorable by offering the most pocket-friendly South India tour packages. Select a package that suits your…</p>
           <a href="pages/tour-packages.html" class="read-more">Read More →</a>
         </div>
       </article>
 
-      <!-- Kanyakumari -->
       <article class="feat-card">
         <a href="pages/destinations.html">
-          <img src="https://images.pexels.com/photos/3264723/pexels-photo-3264723.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kanyakumari" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1544462058-98f5f3a8d1de?w=600&q=80" alt="Kanyakumari">
         </a>
         <div class="feat-body">
           <h3><a href="pages/destinations.html">Kanyakumari</a></h3>
@@ -172,81 +173,75 @@
   </div>
 </section>
 
-<!-- SOUTH INDIAN ATTRACTIONS -->
+<!-- ══ SOUTH INDIAN ATTRACTIONS ══ -->
 <section class="section-destinations">
   <div class="container">
     <h2 class="section-title">South Indian Attractions</h2>
     <div class="dest-grid">
 
-      <!-- Kanyakumari -->
       <div class="dest-card">
         <a href="pages/destinations.html#kanyakumari">
-          <img src="https://images.pexels.com/photos/3264723/pexels-photo-3264723.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Kanyakumari" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1544462058-98f5f3a8d1de?w=500&q=75" alt="Kanyakumari">
           <div class="dest-overlay"><h4>Kanyakumari</h4></div>
         </a>
         <div class="dest-body">
           <h3><a href="pages/destinations.html#kanyakumari">Kanyakumari</a></h3>
-          <p>Surrounded by Majestic Hills and the plains bordered by colourful sea-shores, fringed with coconut trees…</p>
+          <p>Surrounded by Majestic Hills and the plains bordered by colourful sea-shores, fringed with coconut trees and paddy fields…</p>
           <a href="pages/destinations.html#kanyakumari" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <!-- Ooty -->
       <div class="dest-card">
         <a href="pages/destinations.html#ooty">
-          <img src="https://images.pexels.com/photos/3894157/pexels-photo-3894157.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Ooty" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=500&q=75" alt="Ooty">
           <div class="dest-overlay"><h4>Ooty</h4></div>
         </a>
         <div class="dest-body">
           <h3><a href="pages/destinations.html#ooty">Ooty</a></h3>
-          <p>Udhagamandalam (Ooty) is a town in the Nilgiris district of Tamil Nadu. It is the district headquarters…</p>
+          <p>Udhagamandalam (Ooty) is a town and municipality in Tamil Nadu. It is the district headquarters of the Nilgiris…</p>
           <a href="pages/destinations.html#ooty" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <!-- Thanjavur -->
       <div class="dest-card">
         <a href="pages/destinations.html#thanjavur">
-          <img src="https://images.pexels.com/photos/16012293/pexels-photo-16012293.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Thanjavur" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=75" alt="Thanjavur">
           <div class="dest-overlay"><h4>Thanjavur</h4></div>
         </a>
         <div class="dest-body">
           <h3><a href="pages/destinations.html#thanjavur">Thanjavur</a></h3>
-          <p>Thanjavur is a temple city in Tamil Nadu region of southern India. It is considered one of the most sacred…</p>
+          <p>Thanjavur is a temple city in Tamil Nadu region of southern India. It is considered one of the most…</p>
           <a href="pages/destinations.html#thanjavur" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <!-- Rameswaram -->
       <div class="dest-card">
         <a href="pages/destinations.html#rameswaram">
-          <img src="https://images.pexels.com/photos/13694028/pexels-photo-13694028.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Rameswaram" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=500&q=75" alt="Rameswaram">
           <div class="dest-overlay"><h4>Rameswaram</h4></div>
         </a>
         <div class="dest-body">
           <h3><a href="pages/destinations.html#rameswaram">Rameswaram</a></h3>
-          <p>Rameswaram is located on a beautiful island in the lower side of India. Lord Shiva is worshipped here at the famous Ramanathaswamy Temple…</p>
+          <p>Rameswaram is located on a beautiful island in the lower side of India. Lord Shiva is worshipped here…</p>
           <a href="pages/destinations.html#rameswaram" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <!-- Kodaikanal -->
       <div class="dest-card">
         <a href="pages/destinations.html#kodaikanal">
-          <img src="https://images.pexels.com/photos/2565881/pexels-photo-2565881.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Kodaikanal" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=75" alt="Kodaikanal">
           <div class="dest-overlay"><h4>Kodaikanal</h4></div>
         </a>
         <div class="dest-body">
           <h3><a href="pages/destinations.html#kodaikanal">Kodaikanal</a></h3>
-          <p>Kodaikanal is a city in the hills of Dindigul district in Tamil Nadu. Its name means "Gift of the Forest"…</p>
+          <p>Kodaikanal is a city in the hills of Dindigul district in Tamil Nadu. Its name in Tamil means…</p>
           <a href="pages/destinations.html#kodaikanal" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <!-- Trichy -->
       <div class="dest-card">
         <a href="pages/destinations.html#trichy">
-          <img src="https://images.pexels.com/photos/15518380/pexels-photo-15518380.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Tiruchirappalli" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=500&q=75" alt="Tiruchirappalli">
           <div class="dest-overlay"><h4>Tiruchirappalli</h4></div>
         </a>
         <div class="dest-body">
@@ -256,10 +251,9 @@
         </div>
       </div>
 
-      <!-- Kerala -->
       <div class="dest-card">
         <a href="pages/destinations.html#kerala">
-          <img src="https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Kerala" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=500&q=75" alt="Kerala">
           <div class="dest-overlay"><h4>Kerala</h4></div>
         </a>
         <div class="dest-body">
@@ -269,15 +263,14 @@
         </div>
       </div>
 
-      <!-- Madurai -->
       <div class="dest-card">
         <a href="pages/destinations.html#madurai">
-          <img src="https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Madurai" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1600100397608-4f089e0aefd2?w=500&q=75" alt="Madurai">
           <div class="dest-overlay"><h4>Madurai</h4></div>
         </a>
         <div class="dest-body">
           <h3><a href="pages/destinations.html#madurai">Madurai</a></h3>
-          <p>Madurai is a major city and cultural headquarters in Tamil Nadu. Administrative headquarters of Madurai district…</p>
+          <p>Madurai is a major city and cultural headquarters in Tamil Nadu. It is the administrative headquarters…</p>
           <a href="pages/destinations.html#madurai" class="read-more">Read More →</a>
         </div>
       </div>
@@ -286,81 +279,81 @@
   </div>
 </section>
 
-<!-- POPULAR TOUR PACKAGES -->
+<!-- ══ POPULAR TOUR PACKAGES ══ -->
 <section class="section-packages">
   <div class="container">
     <h2 class="section-title">Popular Tour Packages</h2>
     <div class="pkg-grid">
 
-      <div class="pkg-card" id="temple-tour">
+      <div class="pkg-card">
         <a href="pages/tour-packages.html#temple-tour">
-          <img src="https://images.pexels.com/photos/13694028/pexels-photo-13694028.jpeg?auto=compress&cs=tinysrgb&w=600" alt="South India Temple Tour" loading="lazy">
-          <div class="pkg-overlay"><h4>South India Temple Tour – 12 Days</h4></div>
+          <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&q=80" alt="South India Temple Tour">
+          <div class="pkg-overlay"><h4>South India Temple Tour</h4></div>
         </a>
         <div class="pkg-body">
           <h3><a href="pages/tour-packages.html#temple-tour">South India Temple Tour</a></h3>
-          <p>12 Days covering Rameswaram, Madurai, Kanyakumari, Tirupati, Chennai, Thanjavur & all major temples…</p>
-          <a href="#booking" class="read-more">Book Now →</a>
+          <p>South India Temple Tours – 12 Days. The itinerary covers all major temples across Tamil Nadu and Kerala…</p>
+          <a href="pages/tour-packages.html#temple-tour" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <div class="pkg-card" id="south-special">
+      <div class="pkg-card">
         <a href="pages/tour-packages.html#south-special">
-          <img src="https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&w=600" alt="South Indian Special" loading="lazy">
-          <div class="pkg-overlay"><h4>South Indian Special – 8D/7N</h4></div>
+          <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80" alt="South Indian Special">
+          <div class="pkg-overlay"><h4>South Indian Special</h4></div>
         </a>
         <div class="pkg-body">
           <h3><a href="pages/tour-packages.html#south-special">South Indian Special Tour Package</a></h3>
-          <p>Thiruvananthapuram – Kanyakumari – Rameswaram – Madurai – Thekkady – Munnar – Kodaikanal…</p>
-          <a href="#booking" class="read-more">Book Now →</a>
+          <p>Thiruvananthapuram – Kanyakumari – Rameswaram – Madurai – Thekkady – Munnar – Kodaikanal – Madurai…</p>
+          <a href="pages/tour-packages.html#south-special" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <div class="pkg-card" id="rmm-tiruchendur">
+      <div class="pkg-card">
         <a href="pages/tour-packages.html#rmm-tiruchendur">
-          <img src="https://images.pexels.com/photos/3264723/pexels-photo-3264723.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rameswaram Tiruchendur Kanyakumari" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1519750783826-e2420f4d687f?w=600&q=80" alt="Rameswaram Tiruchendur Kanyakumari">
           <div class="pkg-overlay"><h4>Rameswaram – Tiruchendur – Kanyakumari</h4></div>
         </a>
         <div class="pkg-body">
           <h3><a href="pages/tour-packages.html#rmm-tiruchendur">Rameswaram Tiruchendur & Kanyakumari</a></h3>
-          <p>3 Days / 2 Nights. Most pocket-friendly package covering Rameswaram, Tiruchendur & Kanyakumari…</p>
-          <a href="#booking" class="read-more">Book Now →</a>
+          <p>3 Days / 2 Nights. We make your visit memorable with the most pocket-friendly Rameswaram Tiruchendur & Kanyakumari package…</p>
+          <a href="pages/tour-packages.html#rmm-tiruchendur" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <div class="pkg-card" id="rmm-kk-madurai">
+      <div class="pkg-card">
         <a href="pages/tour-packages.html#rmm-kk-madurai">
-          <img src="https://images.pexels.com/photos/3881104/pexels-photo-3881104.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rameswaram Kanyakumari Madurai" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1544462058-98f5f3a8d1de?w=600&q=80" alt="Rameswaram Kanyakumari Madurai">
           <div class="pkg-overlay"><h4>Rameswaram – Kanyakumari – Madurai</h4></div>
         </a>
         <div class="pkg-body">
           <h3><a href="pages/tour-packages.html#rmm-kk-madurai">Rameswaram Kanyakumari and Madurai</a></h3>
-          <p>4 Days / 3 Nights. Wide variety of options for every budget covering major South India pilgrim spots…</p>
-          <a href="#booking" class="read-more">Book Now →</a>
+          <p>4 Days / 3 Nights. Arthika Tours offers a wide variety of tour packages that best suit every budget…</p>
+          <a href="pages/tour-packages.html#rmm-kk-madurai" class="read-more">Read More →</a>
         </div>
       </div>
 
       <div class="pkg-card">
         <a href="pages/rameswaram-packages.html">
-          <img src="https://images.pexels.com/photos/16012293/pexels-photo-16012293.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rameswaram 1 Day Tour" loading="lazy">
-          <div class="pkg-overlay"><h4>Rameswaram 1-Day Sightseeing</h4></div>
+          <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&q=80" alt="Rameswaram 1 Day Tour">
+          <div class="pkg-overlay"><h4>Rameswaram 1 Day Tour</h4></div>
         </a>
         <div class="pkg-body">
           <h3><a href="pages/rameswaram-packages.html">Rameswaram Tour Packages (1 Day)</a></h3>
-          <p>Most popular! Full Rameswaram darshan – Ramanathaswamy Temple, Pamban Bridge, Dhanushkodi…</p>
-          <a href="#booking" class="read-more">Book Now →</a>
+          <p>Most popular! Full Rameswaram darshan – Ramanathaswamy Temple, Pamban Bridge, Dhanushkodi, Agni Theertham…</p>
+          <a href="pages/rameswaram-packages.html" class="read-more">Read More →</a>
         </div>
       </div>
 
-      <div class="pkg-card" id="kerala">
+      <div class="pkg-card">
         <a href="pages/tour-packages.html#kerala">
-          <img src="https://images.pexels.com/photos/2565881/pexels-photo-2565881.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kerala Package" loading="lazy">
-          <div class="pkg-overlay"><h4>Kerala Packages – 12D/11N</h4></div>
+          <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80" alt="Kerala Package">
+          <div class="pkg-overlay"><h4>Kerala (12D/11N)</h4></div>
         </a>
         <div class="pkg-body">
           <h3><a href="pages/tour-packages.html#kerala">Kerala Packages (12 Days & 11 Nights)</a></h3>
-          <p>Munnar – Thekkady – Alleppey Houseboat – Kovalam – Thiruvananthapuram. Complete Kerala experience…</p>
-          <a href="#booking" class="read-more">Book Now →</a>
+          <p>Munnar – Thekkady – Alleppey – Kovalam – Thiruvananthapuram. Complete Kerala experience from Rameswaram…</p>
+          <a href="pages/tour-packages.html#kerala" class="read-more">Read More →</a>
         </div>
       </div>
 
@@ -368,12 +361,12 @@
   </div>
 </section>
 
-<!-- BOOKING FORM -->
+<!-- ══ QUICK BOOKING FORM ══ -->
 <section class="section-booking" id="booking">
   <div class="container booking-wrap">
     <div class="booking-info">
       <h2>Book Your Trip</h2>
-      <p>Call us, WhatsApp us, or fill this quick form. We confirm within minutes!</p>
+      <p>Call us, WhatsApp us, or fill this quick form. We confirm your booking within minutes!</p>
       <div class="binfo-list">
         <div class="binfo-item"><span>📞</span><div><strong>Phone / Call</strong><a href="tel:9994023634">+91 9994023634</a></div></div>
         <div class="binfo-item"><span>💬</span><div><strong>WhatsApp</strong><a href="https://wa.me/919994023634" target="_blank">+91 9994023634</a></div></div>
@@ -406,7 +399,7 @@
           </div>
         </div>
         <div class="fgrp full"><label>Special Requirements</label>
-          <textarea id="fnote" placeholder="Number of passengers, hotel needed, special requests..." rows="3"></textarea>
+          <textarea id="fnote" placeholder="Number of passengers, luggage info, hotel needed, special requests..." rows="3"></textarea>
         </div>
         <button type="submit" class="btn-submit">📲 Send via WhatsApp & Confirm Booking</button>
       </form>
@@ -414,9 +407,10 @@
   </div>
 </section>
 
-<!-- FOOTER -->
+<!-- ══ FOOTER ══ -->
 <footer class="site-footer">
   <div class="container footer-grid">
+
     <div class="footer-about">
       <div class="logo-wrap" style="margin-bottom:14px">
         <div class="logo-box"><span class="logo-letter">A</span></div>
@@ -433,6 +427,7 @@
         <a href="#" title="YouTube">▶</a>
       </div>
     </div>
+
     <div class="footer-col">
       <h5>Popular Destinations</h5>
       <ul>
@@ -447,6 +442,7 @@
         <li><a href="pages/destinations.html#chennai">Chennai</a></li>
       </ul>
     </div>
+
     <div class="footer-col">
       <h5>Quick Links</h5>
       <ul>
@@ -456,10 +452,12 @@
         <li><a href="pages/destinations.html#kanyakumari">Kanyakumari Sightseeing</a></li>
         <li><a href="pages/tour-packages.html#kerala">Best Places – Kerala</a></li>
         <li><a href="pages/car-rental.html">24/7 Car Rental</a></li>
+        <li><a href="#booking">Ticket Booking</a></li>
         <li><a href="pages/tour-packages.html">All Tour Packages</a></li>
         <li><a href="pages/hotels.html">Hotels in Rameswaram</a></li>
       </ul>
     </div>
+
     <div class="footer-col">
       <h5>Follow Us</h5>
       <ul>
@@ -473,6 +471,7 @@
         <li><a href="#booking">Contact Us</a></li>
       </ul>
     </div>
+
   </div>
   <div class="footer-bottom">
     <div class="container">
@@ -481,7 +480,7 @@
   </div>
 </footer>
 
-<!-- WhatsApp Float -->
+<!-- WhatsApp Floating Button -->
 <a href="https://wa.me/919994023634" class="wa-btn" target="_blank" title="Chat on WhatsApp">
   <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
 </a>
